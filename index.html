@@ -10,6 +10,7 @@
       href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Roboto:wght@300&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="/src/css/main.css" />
   </head>
   <body>
     <header class="header">
@@ -19,7 +20,9 @@
             <a href="#" class="aftorisachion__link">Log in</a>
           </li>
           <li class="aftorisachion__item">
-            <a href="#" class="aftorisachion__link">Sign up</a>
+            <a href="#" class="aftorisachion__link aftorisachion__link--active"
+              >Sign up</a
+            >
           </li>
         </ul>
         <h1 class="logo header__logo">URLAUBSGLÜCK</h1>
@@ -27,9 +30,11 @@
     </header>
     <main class="main-page">
       <section class="hero main-page__hero">
-        <h2 class="hero__title">Share your holiday dreams</h2>
-        <p class="hero__text">And find the perfect partner to fullfill it</p>
-        <a href="#" class="button hero__button">Find your holiday partner</a>
+        <div class="hero__container container">
+          <h2 class="hero__title">Share your holiday dreams</h2>
+          <p class="hero__text">And find the perfect partner to fullfill it</p>
+          <a href="#" class="button hero__button">Find your holiday partner</a>
+        </div>
       </section>
       <section class="partners main-page__partners">
         <div class="container partners__container">
@@ -38,7 +43,7 @@
             <article class="partners__item item-partner">
               <div class="item-partner__foto item-partner__foto--breadney">
                 <img
-                  src="/srs/image/partners/breadney/photo.jpg"
+                  src="/src/image/partners/breadney/photo.jpg"
                   alt="Foto-breadney"
                 />
               </div>
@@ -50,7 +55,7 @@
             <article class="partners__item item-partner">
               <div class="item-partner__foto item-partner__foto--lukas">
                 <img
-                  src="/srs/image/partners/lukas/photo.jpg"
+                  src="/src/image/partners/lukas/photo.jpg"
                   alt="Foto-lukas"
                 />
               </div>
@@ -63,7 +68,7 @@
             <article class="partners__item item-partner">
               <div class="item-partner__foto item-partner__foto--walker">
                 <img
-                  src="/srs/image/partners/walker/photo.jpg"
+                  src="/src/image/partners/walker/photo.jpg"
                   alt="Foto-walker"
                 />
               </div>
@@ -74,7 +79,7 @@
             </article>
             <article class="partners__item item-partner">
               <div class="item-partner__foto item-partner__foto--anna">
-                <img src="/srs/image/partners/anna/photo.jpg" alt="Foto-anna" />
+                <img src="/src/image/partners/anna/photo.jpg" alt="Foto-anna" />
               </div>
               <h3 class="item-partner__title">Anna Hunter</h3>
               <p class="item-partner__text">

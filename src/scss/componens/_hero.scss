@@ -1,0 +1,42 @@
+.hero{
+    background-image: url(/src/image/hero/desk-header\ 1\ \(1\).png);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    @extend %flexCenter;
+    padding-top: 200px;
+}
+.hero__container{
+    @extend %flexCenter;
+    flex-direction: column;
+    row-gap: 15px;
+}
+.hero__title{
+    text-align: center;
+    font-size: 30;
+    text-transform: uppercase;
+}
+.hero__text{
+    text-align: center;
+    font-family: $fontFamilySecondary;
+    font-size: 18px;
+    font-weight: 300;
+}
+.hero__button{
+    background-color: $colorBtn;
+    &:hover{
+        color: $colorBtn;
+        background-color: $colorTextPrimary;
+    }
+}
+@media (min-width:768px){
+    .hero__container{
+        gap: 35px;
+    }
+    .hero__title{
+        font-size: 52px;
+    }
+    .hero__text{
+        font-size: 24px;
+    }
+}
